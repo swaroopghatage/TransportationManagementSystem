@@ -36,6 +36,7 @@
       <tr>
 			<th>Order Id</th>
 			<th>Order Status</th>
+			<th>Delivery Status</th>
 			<th>Vehicle Type</th>
 			<th>Pickup Address</th>
 			<th>Delivery Address</th>
@@ -51,6 +52,7 @@
       <tr>
 				<td>${o.oId}</td>				
 				<td>${o.orderStatus}</td>
+				<td>${o.deliveryStatus}</td>
 				<td>${o.type}</td>
 				<td>${o.pickupAddress}</td>
 				<td>${o.deliveryAddress}</td>

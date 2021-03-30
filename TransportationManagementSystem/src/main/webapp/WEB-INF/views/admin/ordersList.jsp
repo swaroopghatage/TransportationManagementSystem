@@ -33,6 +33,7 @@
       <tr>
         <th>Order Id</th>
 			<th>Order Status</th>
+			<th>Delivery Status</th>
 			<th>Payment Status</th>
 			<th>Mobile No</th>
 			<th>Accept</th>
@@ -47,6 +48,7 @@
       <tr>
         <td>${o.oId}</td>
 				<td>${o.orderStatus}</td>
+				<td>${o.deliveryStatus}</td>
 				<td>${o.paymentStatus}</td>
 				<td>${o.mobileNo}</td>
 
